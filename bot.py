@@ -12,7 +12,7 @@ def get_text_messages(message):
     if str(message.text).lower() == "привет":
         bot.send_message(message.from_user.id, "Привет, это проект Physicsfights - Многофункциональный сервис для изучения физики. \n Для информации введите /help.")
     elif str(message.text).lower() == "/help":
-        bot.send_message(message.from_user.id, "Список команд: \n /s - вывести свой рейтинг \n /t - Получить задачу\n /a - ответ - дать ответ на задачу")
+        bot.send_message(message.from_user.id, "проект Physicsfights - Многофункциональный сервис для изучения физики \n Список команд: \n /s - вывести свой рейтинг \n /t - Получить задачу\n /a - ответ - дать ответ на задачу")
     elif splitted_text[0] == "/t":
         task, ans, taskid = getTask(message.from_user.id)
         bot.send_message(message.from_user.id, task)    
@@ -24,7 +24,7 @@ def get_text_messages(message):
         bot.send_message(message.from_user.id, str1)
     elif splitted_text[0] == "/s":
         score = getScore(message.from_user.id)
-        bot.send_message(message.from_user.id, "Ваш рейтинг: "+ score)   
+        bot.send_message(message.from_user.id, "Ваш рейтинг: "+ str(score))   
     else:
         bot.send_message(message.from_user.id, "Для информации введите /help.")
 
