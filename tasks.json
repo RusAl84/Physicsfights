@@ -1,0 +1,36 @@
+[{
+    "task": "1.txt",
+    "ans": "235",
+    "author": "",
+    "score": 3,
+    "solved":["123","234"]
+},
+{
+    "task": "2.txt",
+    "ans": "14",
+    "author": "",
+    "score": 3,
+    "solved":[]
+},
+{
+    "task": "3.txt",
+    "ans": "35",
+    "author": "",
+    "score": 3,
+    "solved":[]
+},
+{
+    "task": "4.txt",
+    "ans": "125",
+    "author": "",
+    "score": 3,
+    "solved":[]
+},
+{
+    "task": "5.txt",
+    "ans": "135",
+    "author": "",
+    "score": 3,
+    "solved":[]
+}
+]
